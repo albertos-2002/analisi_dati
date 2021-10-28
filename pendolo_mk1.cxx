@@ -4,13 +4,13 @@ using namespace std;
 int numero_misure_while = 0;
 int munero_misure_fatte = 0;
 double float somma_misure = 0; 
-double float valore_misure = 0;
+double float valore_misura = 0;
 double float media_aritmetica = 0;
 
 cout << "Inserire il numero totale delle misure effettuate" << endl;
 cin >> numero_misure_fatte; 
 
-int main () {
+int main () {-
     
     while (numero_misure_while <= numero_misure_fatte) {
         
