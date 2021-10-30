@@ -174,9 +174,7 @@ if (file_in.fail()){
     
 cout << "SEM = " << sem << endl;
 
-//scrittura su file di output per SE e SEM
-
-
+//scrittura su file di output per SE e SEM e media
 
 file_out.open ("NOME_FILE.ESTENSIONE", ofstream::out | ios_base::ate);
 	
