@@ -66,7 +66,7 @@ int main (){
 	file_out.open ("g_stima_pl2.txt");
 	
 	//controllo apertura file
-	if (file_in.fail()){
+	if (file_out.fail()){
 	cout << "Errore nell'apertura del file" << endl;
 	}
 	
