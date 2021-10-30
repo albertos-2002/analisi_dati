@@ -87,20 +87,6 @@ if (file_in.fail()){
     cout << "La media aritmetica (stima di mu valore medio) delle " << numero_misure_fatte << " misure eseguite è" << endl << endl;
     cout << media_aritmetica << endl << endl;
     
-/*    //stampa su file di output
-    file_out.open ("risultati.txt", ofstream::out | ios_base::ate);
-    //controllo apertura corretta del file
-    if (file_out.fail()){
-    cout << "Errore nell'apertura del file di output" << endl;
-    }
-    file_out << "Media aritmetica" << endl;
-    file_out << media_aritmetica << endl;
-    file_out << "(totale misure = " << numero_misure_fatte << ")" << endl << endl;
-    //chiusura file
-    file_out.close ();
-*/   
-
-    
 //calcolo della deviazione standard campionaria o SE
     
     // calcolo del primo parametro pari a 1/(N-1)
@@ -118,7 +104,7 @@ if (file_in.fail()){
     // calcolo della somma degli scarti quadrati rispetto alla media
     
     //apertura del file in lettura
-	file_in.open ("valori.txt");
+	file_in.open ("NOME_FILE.ESTENSIONE");
 
     //controllo se il file è stato aperto correttamente
     if (file_in.fail()){
