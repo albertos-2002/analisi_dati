@@ -1,0 +1,16 @@
+Tutti i file che riguardano la misura del periodo singolo sono indicati con ps nel nome
+Tutti i file che riguardano la misura del periodo triplo sono indicati con pt nel nome
+Tutti i file riguardanti la misura del periodo singolo con l dimezzato sono indizati con pl2 nel mome 
+
+------------------------------------
+
+I file di input sono
+dati_input
+
+-----------------------------------
+
+I file di output prodotti sono
+media_aritmetica
+se
+sem
+parametri
