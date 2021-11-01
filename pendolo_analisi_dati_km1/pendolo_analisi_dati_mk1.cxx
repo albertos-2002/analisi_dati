@@ -738,6 +738,9 @@ string valore_in_lettura_str = "";
 	catch (invalid_argument){
 	cout << "Errore nella lettura" << endl;
 	}
+	
+	file_in_sigma.close();
+	file_in_sigma.clear();
 
 //calcolo di 3 sigma
 
@@ -824,6 +827,9 @@ ifstream file_in_misure_pt;
 	catch (invalid_argument){
 	cout << "Errore nella lettura" << endl;
 	}
+	
+	file_in_sigma.close();
+	file_in_sigma.clear();
 
 //calcolo di 3 sigma
 
@@ -910,6 +916,9 @@ ifstream file_in_misure_pl2;
 	catch (invalid_argument){
 	cout << "Errore nella lettura" << endl;
 	}
+	
+	file_in_sigma.close();
+	file_in_sigma.clear();
 
 //calcolo di 3 sigma
 
