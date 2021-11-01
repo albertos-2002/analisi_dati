@@ -1490,7 +1490,7 @@ STIMA g PERIODO SINGOLO LUNGHEZZA MEZZA
 
 //inserzione parametri per il calcolo
 
-	cout << "Inserire la lunghezza l del pendolo in metri" << endl;
+	cout << "Inserire la lunghezza l/2 del pendolo in metri" << endl;
 	cin >> lunghezza;
 	cout << endl;
 	
