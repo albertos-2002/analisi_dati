@@ -1131,6 +1131,7 @@ STIMA INCRTEZZA SU g
 	double sotto_parametro_t = 0;	
 	double parametro_t = 0;
 	double parametro_t_quadro = 0;
+	double periodo_quadro = 0;
 	
 	double radicando_incertezza_g = 0;
 	double radice_incertezza_g = 0;
@@ -1138,7 +1139,8 @@ STIMA INCRTEZZA SU g
 	parametro_l = incertezza_l / lunghezza;
 	parametro_l_quadro = pow(parametro_l,2);
 	
-	sotto_parametro_t = incertezza_periodo / periodo;
+	periodo_quadro = pow(periodo,2);
+	sotto_parametro_t = incertezza_periodo / periodo_quadro;
 	parametro_t = 2 * sotto_parametro_t;
 	parametro_t_quadro = pow(parametro_t,2);
 
@@ -1636,6 +1638,7 @@ STIMA INCRTEZZA SU g
 	 sotto_parametro_t = 0;	
 	 parametro_t = 0;
 	 parametro_t_quadro = 0;
+	 periodo_quadro = 0;
 	
 	 radicando_incertezza_g = 0;
 	 radice_incertezza_g = 0;
@@ -1643,7 +1646,8 @@ STIMA INCRTEZZA SU g
 	parametro_l = incertezza_l / lunghezza;
 	parametro_l_quadro = pow(parametro_l,2);
 	
-	sotto_parametro_t = incertezza_periodo / periodo;
+	periodo_quadro = pow(periodo,2);
+	sotto_parametro_t = incertezza_periodo / periodo_quadro;
 	parametro_t = 2 * sotto_parametro_t;
 	parametro_t_quadro = pow(parametro_t,2);
 
