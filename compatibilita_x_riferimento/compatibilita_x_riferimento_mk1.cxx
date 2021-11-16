@@ -113,4 +113,3 @@ cout << "Fattore di compatibilità =  " << compatibilita_x << endl;
 
 	return 0;
 }
-
