@@ -1,3 +1,5 @@
+Per i dati deve sussistere l'ipotesi di una distribuzione di dati gaussiana
+
 I dati all'interno del file devono essere separati l'uno dall'altro con una virgla
   es: 12,25,34.02,7
   
