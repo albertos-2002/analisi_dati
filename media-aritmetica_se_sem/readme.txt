@@ -1,3 +1,8 @@
+Ultima versione
+mk5
+Ultima versione "compatto"
+mk2
+
 Per i dati deve sussistere l'ipotesi di una distribuzione di dati gaussiana
 
 I dati all'interno del file devono essere separati l'uno dall'altro con una virgla
