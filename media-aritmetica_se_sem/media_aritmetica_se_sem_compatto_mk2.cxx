@@ -5,6 +5,7 @@
 #include <vector>
 using namespace std;
 int main () {
+    string nome_file_in = "";
 	vector<double> misure_input;
     int numero_misure_while = 0;  
     int numero_misure_fatte = 0; 
@@ -21,8 +22,11 @@ int main () {
     long double sem = 0;
     double radice_numero_misure_fatte = 0;
     string valore_misura_str = "";  
+cout << "Inserire il nome del file che deve essere letto" << endl;
+cin >> nome_file_in;
 ifstream file_in;
-file_in.open ("dati_input.txt");
+ofstream file_out;
+file_in.open (nome_file_in);
 if (file_in.fail()){
 	cout << "Errore nell'apertura del file di input" << endl;
 }
@@ -58,5 +62,19 @@ if (file_in.fail()){
     radice_numero_misure_fatte = sqrt(numero_misure_fatte);    
     sem = se / radice_numero_misure_fatte;
     cout << "SEM = " << sem << endl;
+file_out.open("se.txt");
+    if (file_in.fail()) {
+        cout << "Errore nell'apertura del file di input" << endl;
+    }
+    file_out << se;
+    file_out.close();
+    file_out.clear();
+    file_out.open("sem.txt");
+    if (file_in.fail()) {
+        cout << "Errore nell'apertura del file di input" << endl;
+    }
+    file_out << sem;
+    file_out.close();
+    file_out.clear();
     return 0;
 }

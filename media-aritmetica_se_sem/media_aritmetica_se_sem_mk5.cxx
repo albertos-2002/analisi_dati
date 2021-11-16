@@ -6,6 +6,9 @@
 using namespace std;
 
 int main () {
+
+    //file input nome
+    string nome_file_in = "";
     
 //stanziamento vettori
 	vector<double> misure_input;
@@ -31,11 +34,16 @@ int main () {
 //variabili stringhe e per conversione da stringa a variabile
     string valore_misura_str = "";  //prende il valore da stod()
 
+//cin nome file
+    cout << "Inserire il nome del file che deve essere letto" << endl;
+    cin >> nome_file_in;
+
 //apertura del file di input
-ifstream file_in; 	//"dati_inpunt.txt"
+ifstream file_in;
+ofstream file_out;
 
 //apertura del file in lettura
-file_in.open ("dati_input.txt");
+file_in.open (nome_file_in);
 
 //controllo se il file è stato aperto correttamente
 if (file_in.fail()){
@@ -118,5 +126,42 @@ if (file_in.fail()){
     sem = se / radice_numero_misure_fatte;
     
     cout << "SEM = " << sem << endl;
+
+
+//scrittura su file di se
+
+//apertura del file in scrittura
+	file_out.open ("se.txt");
+
+//controllo se il file è stato aperto correttamente
+	if (file_in.fail()) {
+		cout << "Errore nell'apertura del file di input" << endl;
+	}
+
+//scrivo su file di output
+    file_out << se;
+
+//chiude il file aperto in lettura
+	file_out.close();
+//dovrebbe permettere di riutilizzare la stessa variabile per leggere altri file
+	file_out.clear();
+
+//scrittura su file di sem   
+
+//apertura del file in scrittura
+    file_out.open ("sem.txt");
+
+    //controllo se il file è stato aperto correttamente
+    if (file_in.fail()) {
+        cout << "Errore nell'apertura del file di input" << endl;
+    }
+
+    //scrivo su file di output
+    file_out << sem;
+
+    //chiude il file aperto in lettura
+    file_out.close();
+    //dovrebbe permettere di riutilizzare la stessa variabile per leggere altri file
+    file_out.clear();
     return 0;
 }
