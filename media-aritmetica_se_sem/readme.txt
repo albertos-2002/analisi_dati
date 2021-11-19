@@ -13,5 +13,5 @@ File di output (v: mk5 o superiori | vcompatta: mk2 o superiori)
   sem.txt
 
 
-Il file contenente i dati di input deve essere rinominato come: (v: mk4 o inferiori)
+Il file contenente i dati di input deve essere rinominato come: (v: mk4 o inferiori | vcompatto: mk1)
   dati_input.txt
