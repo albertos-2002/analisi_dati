@@ -1,6 +1,6 @@
 analisi_dati: 
 
-calcolo media aritmetica, standard error e standard error of the mean
+calcolo media aritmetica, standard error e standard error of the mean (gaussiana)
 
 confronto dei valori con un dato sigma
 
