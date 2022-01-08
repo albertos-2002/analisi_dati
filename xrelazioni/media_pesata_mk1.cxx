@@ -139,7 +139,7 @@ if (file_out_inc_mp.fail()) {
 cout << "Errore nell'apertura del file di output relativo all'incertezza sulla media pesata" << endl;
 return 1;
 }
-file_out_mp << incertezza_media_pesata;
+file_out_inc_mp << incertezza_media_pesata;
 
 file_in_sxi.close();
 
