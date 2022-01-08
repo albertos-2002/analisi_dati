@@ -96,7 +96,7 @@ for (int i=0; i<numerosita_campione; ++i){
  for (int i=0; i<numerosita_campione; ++i){
    parametro_c = pow(sxi.at(i),2);
    parametro_d = 1 / parametro_c;
-   sum_1_diviso_sxi_pow2 = sum_1_diviso_sxi_pow2 + parametro_b;
+   sum_1_diviso_sxi_pow2 = sum_1_diviso_sxi_pow2 + parametro_d;
   }
 
 media_pesata = sum_xi_diviso_sxi_pow2 / sum_1_diviso_sxi_pow2;
