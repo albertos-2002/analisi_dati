@@ -1,7 +1,7 @@
 Ultima versione
-mk5
+mk6
 Ultima versione "compatto"
-mk2
+
 
 Per i dati deve sussistere l'ipotesi di una distribuzione di dati gaussiana
 
