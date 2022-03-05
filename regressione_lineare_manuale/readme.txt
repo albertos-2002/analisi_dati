@@ -7,6 +7,9 @@ mk1
 --------------------------------------------------------------------
 File necessari:
 #regressione lineare
-Input:
-incertezze e misure su ordinate
-misure sulle ascisse
+  incertezze e misure su ordinate
+  misure sulle ascisse
+#coefficiente di correlazione di Pearson
+  
+#errore a posteriori
+  
