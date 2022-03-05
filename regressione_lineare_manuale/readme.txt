@@ -20,8 +20,8 @@ File necessari:
   incertezze e misure su ordinate
   misure sulle ascisse
 #coefficiente di correlazione di Pearson
+  
+#errore a posteriori
   misure xi
   misure yi
   parametri a e b della retta interpolante
-#errore a posteriori
-  
