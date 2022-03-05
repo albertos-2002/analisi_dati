@@ -27,7 +27,7 @@ cout << "Inserire il nome del file da cui leggere yi" << endl;
 cin >> file_in_yi_str;
 cout << "Inserire il nome del file per il coefficiente angolare (b) della retta interpolante" << endl;
 cin >> file_in_coefficiente_angolare_str;
-cout << "Inserire il nome del file pee l'intercetta (a) della retta interpolante" << endl;
+cout << "Inserire il nome del file per l'intercetta (a) della retta interpolante" << endl;
 cin >> file_in_intercetta_str;
 file_in_xi.open(file_in_xi_str);
     if (file_in_xi.fail()) {
