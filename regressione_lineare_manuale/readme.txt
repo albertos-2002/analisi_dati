@@ -20,7 +20,10 @@ File necessari:
   incertezze e misure su ordinate
   misure sulle ascisse
 #coefficiente di correlazione di Pearson
-  
+  misure xi
+  misure yi
+  x medio
+  y medio
 #errore a posteriori
   misure xi
   misure yi
