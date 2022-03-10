@@ -148,8 +148,6 @@ for (int i = 0; i<numerosita_campione; ++i) {
 }
 cout << "Il chi quadro misurato vale" << endl;
 cout << chi_quadro_misurato << endl;
-
-//stampa su file di output
-
+	
   return 0;
 }
