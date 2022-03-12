@@ -150,7 +150,7 @@ cout << "Il chi quadro misurato vale" << endl;
 cout << chi_quadro_misurato << endl;
 
 long double ndof = 0;
-ndof = y.size()-2;
+ndof = misure_y.size()-2;
 cout << "NDOF" << endl;
 cout << ndof << endl;	
 	
