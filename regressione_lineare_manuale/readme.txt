@@ -22,8 +22,9 @@ File necessari:
 #coefficiente di correlazione di Pearson
   misure xi
   misure yi
-  x medio
-  y medio
+  x medio (dei valori da testare)
+  y medio (dei valori da testare)
+  con mk2 solo misure xi e yi
 #errore a posteriori
   misure xi
   misure yi
