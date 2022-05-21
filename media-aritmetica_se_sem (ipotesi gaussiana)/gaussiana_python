@@ -1,0 +1,33 @@
+misure =
+N = misure.size
+
+#Calcolo della media aritmetica
+somma=0
+for x in misure:
+  somma = somma+x
+media_aritmetica = somma/N
+print("La media aritmetica vale:")
+print(media_aritmetica)
+
+#Calcolo errore
+#calcolo parametro
+fattore = 1/(N-1)
+#calcolo vettore scarti quadratici
+scarti_quadrati = []
+keeper = 0
+for y in misure:
+  keeper = (y-media_aritmetica)**2
+  scarti_quadrati.append(keeper)
+#somma scarti quadrati
+somma_sc = 0
+for k in scarti_quadrati:
+  somma_sc=somma_sc + k
+#calcolo finale
+keeper2 = somma_sc*fattore
+se = math.sqrt(keeper2)
+print("Il valore di SE è:")
+print(se)
+#Calcolo errore media
+sem= se/math.sqrt(N)
+print("Il valore di SEM è:")
+print(sem)
