@@ -103,6 +103,7 @@ parametro_h = parametro_g * sommatoria;
 errore_posteriori = sqrt(parametro_h);
 cout << "Il valore dell'errore a posteriori" << endl;
 cout << errore_posteriori << endl;
+    /*
 ofstream file_out;
 string file_out_str;
 cout << "Inserire il nome del file di output per l'errore a posteriori" << endl;
@@ -114,5 +115,7 @@ file_out.open(file_out_str);
   }
   file_out << errore_posteriori;
 file_out.close();
+*/
 return 0;
+
 }
