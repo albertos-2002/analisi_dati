@@ -185,6 +185,7 @@ cout << "Il parametro b (coefficiente angolare) della regressione lineare vale:"
 cout << b << endl;
 cout << "La sua incertezza vale:" << endl;
 cout << incertezza_b << endl;
+  /*
 cout << "Inserisci il nome per il file parametro a della regressione lineare" << endl;
 cin >> nome_file_a_str;
 cout << "Inserisci il nome per il file incertezza sul parametro a della regressione lineare" << endl;
@@ -205,5 +206,6 @@ file_out_incertezza_a.close();
 file_out_incertezza_b.open(nome_file_b_incertezza_str);
 file_out_incertezza_b << incertezza_b;
 file_out_incertezza_b.close();
+*/
   return 0;
 }
