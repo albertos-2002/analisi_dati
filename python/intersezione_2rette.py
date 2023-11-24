@@ -18,11 +18,11 @@ def intersezione_2rette(int1, err_int1, pend1, err_pend1, cov1, int2, err_int2, 
   dummy1 = ( err_pend1 / (pend1 - pend2) )**2
   dummy2 = ( err_pend2 / (pend1 - pend2) )**2
   dummy3 = ( err_int2 * ( (int2 - int1) / (pend1 - pend2)**2 ) )**2
-  dummy4 = ( x_intersezione*err_pend1 )**2
+  dummy4 = ( err_pend1* ( ( int2 - int1 ) / ( pend1 - pend2 )**2 ) )**2
   dummy5 = cov1*err_pend1*err_int1
   dummy6 = cov2*err_pend2*err_int2
 
-  err_x_intersezione = math.sqrt( abs(dummy1 + dummy2 + dummy3 + dummy4 + dummy5 + dummy6) )
+  err_x_intersezione = math.sqrt( (dummy1 + dummy2 + dummy3 + dummy4 + dummy5 + dummy6) )
 
   #print dei risultati
   print("---------------------------------------------")
