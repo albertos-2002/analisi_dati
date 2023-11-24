@@ -22,7 +22,7 @@ def intersezione_2rette(int1, err_int1, pend1, err_pend1, cov1, int2, err_int2, 
   dummy5 = cov1*err_pend1*err_int1
   dummy6 = cov2*err_pend2*err_int2
 
-  err_x_intersezione = math.sqrt( (dummy1 + dummy2 + dummy3 + dummy4 + dummy5 + dummy6) )
+  err_x_intersezione = math.sqrt( abs(dummy1 + dummy2 + dummy3 + dummy4 + dummy5 + dummy6) )
 
   #print dei risultati
   print("---------------------------------------------")
