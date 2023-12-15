@@ -7,7 +7,7 @@ y_oblique_i =
 err_y_oblique_i = 
 
 print("Regressione orizzontale")
-print("la regressione lineare a due parametri non ha validità, inserita per avere una approssimazione di rho ed eeepost")
+print("la regressione lineare a due parametri non ha validità, inserita per avere una approssimazione di rho ed err_post")
 regrlin_pear_errpost_xys(x_orizzontali, y_orizzontali, err_y_orizzontali)
 param_oz, cov_oz = curve_fit(retta_fit_xa, x_orizzontali, y_orizzontali, sigma=err_y_orizzontali)
 print("-----------------")
